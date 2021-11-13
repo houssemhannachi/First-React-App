@@ -6,7 +6,7 @@ const Card = (props) => {
     return (
         
             <li className="card">
-                <img src="" alt={country.flag}/>
+                <img src="https://flagicons.lipis.dev/flags/4x3/ar.asvg" alt="country.flag"/>
                 <div className="data-container">
                     <ul>
                         <li>{country.name['common']}</li>
