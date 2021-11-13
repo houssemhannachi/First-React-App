@@ -12,7 +12,7 @@ const Countries = () => {
     console.log(data);
     return (
         <div className="countries">
-            <ul>
+            <ul className="countries-list">
             {data.map((country) =>(
                 //  <li> {} </li>
                 <Card country={country} key={country.name['common']}/>
